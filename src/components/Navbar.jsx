@@ -71,7 +71,7 @@ const Navbar = () => {
                 </SearchContainer>
             </Left>
             <Center>
-                <Logo>LVFT</Logo>
+                <Logo>ecothread</Logo>
             </Center>
             <Right>
                 <MenuItem>Register</MenuItem>
@@ -81,7 +81,7 @@ const Navbar = () => {
                 </Badge>
             </Right>
         </Wrapper>
-        </Container>
+    </Container>
     )
 }
 
