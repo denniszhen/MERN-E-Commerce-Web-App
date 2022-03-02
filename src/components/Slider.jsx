@@ -16,7 +16,6 @@ const Arrow = styled.div`
     width: 50px;
     height: 50px; 
     background-color: transparent;
-    color: black;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -87,7 +86,7 @@ const Slider = () => {
         }
     };
 
-    return (
+    return ( // the return keyword can only return a single element at once, hence the container wrapper.
         <Container>
             <Arrow direction = "left" onClick={() => handleClick("left")}>
                 <ArrowLeftOutlined/>

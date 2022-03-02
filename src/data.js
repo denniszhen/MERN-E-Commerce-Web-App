@@ -2,22 +2,40 @@ export const sliderItems = [
     {
         id: 1,
         img: "https://static.vecteezy.com/system/resources/previews/002/106/586/non_2x/fashion-polo-shirts-on-white-background-free-photo.jpg",
-        title: "summer sale",
-        desc: "wow much sales",
-        bg: 'f5fafd',
+        title: "SPRING SALE",
+        desc: "DON'T MISS YOUR CHANCE TO SHOP THE SEASON'S HOTTEST DEALS!",
+        bg: 'f',
     },
     {
         id: 2,
         img: "https://static.vecteezy.com/system/resources/previews/002/106/586/non_2x/fashion-polo-shirts-on-white-background-free-photo.jpg",
-        title: "summer sale",
+        title: "WOW",
         desc: "wow much sales",
-        bg: 'f5fafd',
+        bg: 'ffffff',
     },
     {
         id: 3,
         img: "https://static.vecteezy.com/system/resources/previews/002/106/586/non_2x/fashion-polo-shirts-on-white-background-free-photo.jpg",
-        title: "summer sale",
+        title: "SALE?",
         desc: "wow much sales",
-        bg: 'f5fafd',
+        bg: 'ffffff',
     }
 ]
+
+export const categories = [
+    {
+      id: 1,
+      img: "https://images.pexels.com/photos/5886041/pexels-photo-5886041.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      title: "SHIRT STYLE!",
+    },
+    {
+      id: 2,
+      img: "https://images.pexels.com/photos/2983464/pexels-photo-2983464.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      title: "LOUNGEWEAR LOVE",
+    },
+    {
+      id: 3,
+      img: "https://images.pexels.com/photos/5480696/pexels-photo-5480696.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+      title: "LIGHT JACKETS",
+    },
+  ];
