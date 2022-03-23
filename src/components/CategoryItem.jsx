@@ -25,6 +25,7 @@ const Button = styled.button`
     cursor: pointer;
 `
 
+
 const Info = styled.div`
     position: absolute;
     top: 0;

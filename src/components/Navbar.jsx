@@ -14,7 +14,7 @@ const Wrapper = styled.div`
     display: flex; 
     justify-content: space-between;
     align-items: center;
-`;
+`
 
 const Language = styled.span`
     font-size: 14; 
@@ -59,7 +59,7 @@ const Right = styled.div`
     justify-content: flex-end;
 `
 
-const Navbar = () => { 
+const Navbar = () => {
     return (
     <Container>
         <Wrapper>
@@ -77,12 +77,12 @@ const Navbar = () => {
                 <MenuItem>Register</MenuItem>
                 <MenuItem>Sign In</MenuItem>
                 <Badge badgeContent={0} color="primary">
-                <ShoppingCartOutlined />
+                <ShoppingCartOutlined/>
                 </Badge>
             </Right>
         </Wrapper>
     </Container>
     )
-}
+} 
 
 export default Navbar

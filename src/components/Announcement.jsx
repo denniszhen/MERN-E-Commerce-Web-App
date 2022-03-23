@@ -1,5 +1,5 @@
+import styled from 'styled-components';
 import React from 'react'
-import styled from "styled-components"
 
 // Don't forget to make everything flexbox before trying to change its positon horizontally/vertically!
 const Container = styled.div`
